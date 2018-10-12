@@ -75,4 +75,6 @@ https://github.com/lsqswl/rsaencrypt/tree/master/demo
 
 ![Storybook for React Demo](https://github.com/lsqswl/rsaencrypt/raw/master/images/1539326613910.jpg)
 
+open console log
+
 ![Storybook for React Demo](https://github.com/lsqswl/rsaencrypt/raw/master/images/1539326692423.jpg)
