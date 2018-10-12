@@ -1,20 +1,20 @@
-相关网站
+Website
 ======================
 https://github.com/lsqswl/rsaencrypt.git
 https://github.com/travist/jsencrypt
 
-说明
+Website
 ======================
-基于jsencrypt封装的RSA加解密工具。支持长字符串；支持与java/Object-C互相加解密。
+a RSA encrypt tools base 'jsencrypt' which can encrypt long string.
 
-如何使用？
+How to use this library.
 =======================
-1. 安装
+1. install
 ```
 npm install @lsqswl/rsaencrypt -D
 ```
 
-2. 使用
+2. use
 ```
 import { encryptPublicLong, decryptPrivateLong } from '@lsqswl/rsaencrypt'
 
@@ -26,13 +26,13 @@ public encrypt() {
             'withdraw_type':'CHANNEL_EMONEY',
             'third_account_channel': 'alipay',
             'third_account': '15900000000',
-            'third_account_name':'陈某某',
+            'third_account_name':'name',
             'client_ip':'127.0.0.1',
             'password':'ed40beecde2036df41a6a7c907fee1'
         };
 
         const encryptData = encryptPublicLong(JSON.stringify(params), publicKey)
-        console.log('加密结果: ' + encryptData)
+        console.log('result: ' + encryptData)
 
         const privateKey = '' +
             'MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAL5IkyRYsn82Iovo' +
@@ -64,9 +64,13 @@ public encrypt() {
             'a9L1qtusIcVbumSb'
 
         const decryptData = decryptPrivateLong(encryptData, privateKey)
-        console.log('解密结果: ' + decryptData)
+        console.log('result: ' + decryptData)
     }
 ```
 
 demo
 =======================
+https://github.com/lsqswl/rsaencrypt/tree/master/demo
+
+![Storybook for React Demo](https://github.com/lsqswl/rsaencrypt/tree/master/images/1539326613910.jpg)
+![Storybook for React Demo](https://github.com/lsqswl/rsaencrypt/tree/master/images/1539326692423.jpg)
