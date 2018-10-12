@@ -6,7 +6,7 @@ https://github.com/travist/jsencrypt
 
 Website
 ======================
-a RSA encrypt tools base 'jsencrypt' which can encrypt long string.
+a RSA encrypt tool base 'jsencrypt' which can encrypt long string.
 
 How to use this library.
 =======================
