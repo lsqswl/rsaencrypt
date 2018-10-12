@@ -1,6 +1,6 @@
 {
   "name": "@lsqswl/rsaencrypt",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于jsencrypt封装的RSA加解密工具。支持长字符串；支持与java/Object-C互相加解密。",
   "main": "index.js",
   "scripts": {
