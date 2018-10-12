@@ -1,0 +1,27 @@
+{
+  "name": "@lsqswl/rsaencrypt",
+  "version": "1.0.0",
+  "description": "基于jsencrypt封装的RSA加解密工具。支持长字符串；支持与java/Object-C互相加解密。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lsqswl/rsaencrypt.git"
+  },
+  "keywords": [
+    "rsa",
+    "encrypt",
+    "decrypt",
+    "rsaencrypt",
+    "rsadecrypt",
+    "publickey",
+    "privatekey"
+  ],
+  "author": "lsqswl@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "jsencrypt": "^3.0.0-rc.1"
+  }
+}
